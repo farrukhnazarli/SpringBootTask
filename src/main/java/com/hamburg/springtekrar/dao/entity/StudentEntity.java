@@ -16,6 +16,7 @@ import static lombok.AccessLevel.PRIVATE;
 @AllArgsConstructor
 @NoArgsConstructor
 @FieldDefaults(level = PRIVATE)
+@Builder
 public class StudentEntity {
 
     @Id
